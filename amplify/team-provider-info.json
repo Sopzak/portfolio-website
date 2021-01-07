@@ -1,0 +1,15 @@
+{
+  "producao": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-sopzaksite-producao-185915-authRole",
+      "UnauthRoleArn": "arn:aws:iam::176796621864:role/amplify-sopzaksite-producao-185915-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::176796621864:role/amplify-sopzaksite-producao-185915-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-sopzaksite-producao-185915-deployment",
+      "UnauthRoleName": "amplify-sopzaksite-producao-185915-unauthRole",
+      "StackName": "amplify-sopzaksite-producao-185915",
+      "StackId": "arn:aws:cloudformation:us-east-1:176796621864:stack/amplify-sopzaksite-producao-185915/3696d3f0-512b-11eb-9b70-0eb35faf783f",
+      "AmplifyAppId": "dps9vmzi380bv"
+    }
+  }
+}
