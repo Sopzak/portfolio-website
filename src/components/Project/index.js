@@ -5,7 +5,7 @@ import { listProjects } from '../../graphql/queries';
 import ProjectCard from '../ProjectCard';
 
 import Header from '../Header';
-import Footer from '../Footer/';
+import Footer from '../Footer';
 
 function Home() {
   const [projects, setProject] = useState([]);

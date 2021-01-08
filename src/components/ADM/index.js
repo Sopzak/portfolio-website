@@ -5,7 +5,8 @@ import { withAuthenticator } from '@aws-amplify/ui-react';
 import { listProjects } from '../../graphql/queries';
 import { createProject as createProjectMutation, deleteProject as deleteProjectMutation } from '../../graphql/mutations';
 import ProjectCard from '../ProjectCard';
-
+import Header from '../Header';
+import Footer from '../Footer/';
 
 const initialFormState = { name: '', description: '' }
 
@@ -37,8 +38,10 @@ function Home() {
   }
 
   return (
-    <div className="home-page">
-        <div className="container">
+    <div>
+      <Header/>
+        <div className="home-page">
+          <div className="container">
             <div className="modal" style={{display: showModal}}>
               <div className="modal-content">
                 <span 
@@ -94,6 +97,8 @@ function Home() {
                 }
             </div>
         </div>
+      </div>
+      <Footer/>
     </div>
   );
 }
