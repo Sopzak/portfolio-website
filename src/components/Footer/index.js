@@ -4,7 +4,7 @@ import './style.css'
 export default function Footer(){
     return(
         <footer>
-            Created by Jesiel Sopzak &nbsp;
+            Created by Jesiel Sopzak Campos &nbsp;
             <a href="https://www.linkedin.com/in/jesiel-sopzak/">               
                 linkedin
             </a> &nbsp;
