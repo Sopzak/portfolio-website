@@ -1,7 +1,9 @@
 import React from 'react';
 import './style.css';
+import { useHistory } from 'react-router-dom';
 
 const Header = () => {
+  let history = useHistory();
   var user = false;
   //Put your name here.
   return user ? (     
@@ -10,7 +12,7 @@ const Header = () => {
       </header>
     ) : (
       <header>
-        <h1>Sopzak Portfolio</h1>
+        <div onClick={() => history.push('./')} ><h1 >Sopzak</h1></div>
         <br>
         </br>
         <ul>

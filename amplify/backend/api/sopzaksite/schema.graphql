@@ -1,8 +1,0 @@
-type Project @model {
-  id: ID!
-  name: String!
-  description: String
-  url: String
-  video: String
-  image: String
-}
